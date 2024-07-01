@@ -136,7 +136,7 @@ def key_pressed(event):
 
 
 master = tkinter.Tk()
-player1_pic = tkinter.PhotoImage(file="pictures/Sherlok.gif")  # загружаем фон
+player1_pic = tkinter.PhotoImage(file="Sherlok.gif")  # загружаем фон
 # player_pic = tkinter.PhotoImage(file="pygame_test/target2.gif") # загружаем рисунок мишени, сейсчас не нужно
 
 canvas = tkinter.Canvas(master, bg='white', height=600, width=800)
